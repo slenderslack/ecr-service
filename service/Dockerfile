@@ -3,5 +3,5 @@ ARG REVISION
 ARG SOURCE
 LABEL org.opencontainers.image.revision=$REVISION
 LABEL org.opencontainers.image.source=$SOURCE
-CMD ["cat", "{version: 1}"]
+CMD ["cat", "{version: 2}"]
 
